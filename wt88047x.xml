@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote  name="tgitlab"
+           fetch="https://gitlab.com/TipzTeam" />
 
-    <project name="LineageOS/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="lineage-18.1" />
-    <project name="nicknitewolf/device_xiaomi_wt88047x" path="device/xiaomi/wt88047x" remote="github" revision="lineage-18.1" />
-    <project name="nicknitewolf/kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="github" revision="lineage-18.1" />
-    <project name="nicknitewolf/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-18.1" />
+    <project name="TipzTeam/msm8916/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="tgitlab" />
+    <project name="TipzTeam/msm8916/wingtech-msm8916/android_device_xiaomi_wt88047x" path="device/xiaomi/wt88047x" remote="tgitlab" />
+    <project name="TipzTeam/msm8916/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="tgitlab" />
+    <project name="TipzTeam/msm8916/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="tgitlab" />
 
     <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-18.1" />
     <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-18.1" />
     <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
     <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-18.1" />
 
-    <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-18.1-legacy" />
+    <project path="device/qcom/sepolicy-legacy" name="TipzTeam/android_device_qcom_sepolicy-legacy" remote="tgitlab" />
 
     <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-18.1" />
 
