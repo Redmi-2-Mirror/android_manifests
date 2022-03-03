@@ -18,11 +18,14 @@ repopick -P hardware/interfaces 320531-320532       # twelve-qcom-cam
 repopick -t twelve-legacy-camera
 
 # Encryption
-repopick -P system/vold 322888-322897               # twelve-qcom-fde
+repopick -P system/vold 322888-322899               # twelve-qcom-fde
 repopick 322898-322904                              # twelve-qcom-fde
 
 # Extras
 repopick 320514
+
+# Sensots
+repopick -f -t max-mag-field
 
 # Sepolicy
 repopick 320333
