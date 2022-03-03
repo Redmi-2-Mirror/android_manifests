@@ -11,7 +11,6 @@
     <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-18.1" />
     <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-18.1" />
     <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
-    <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-18.1" />
 
     <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="tgitlab" />
 
