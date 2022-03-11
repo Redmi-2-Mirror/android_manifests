@@ -2,7 +2,6 @@
 # Ultra Legacy
 repopick -f -P art 318097
 repopick -f 287706 -P external/perfetto
-repopick 318458
 repopick 321934
 repopick -f -P system/bpf 320591
 repopick -f -P system/netd 320592
@@ -19,7 +18,7 @@ repopick -t twelve-legacy-camera
 
 # Encryption
 repopick -P system/vold 322888-322899               # twelve-qcom-fde
-repopick 322898-322904                              # twelve-qcom-fde
+repopick 322900-322904                              # twelve-qcom-fde
 
 # Extras
 repopick 320514
