@@ -5,9 +5,7 @@ repopick -f 287706 -P external/perfetto
 repopick 321934
 repopick -f -P system/bpf 320591
 repopick -f -P system/netd 320592
-
-# packages/apps/Etar
-repopick 319630-319634
+repopick 326385
 
 # Camera
 repopick -t twelve-restore-camera-hal1
@@ -24,7 +22,7 @@ repopick 322898-322904                              # twelve-qcom-fde
 repopick 320514
 
 # Sensors
-repopick -f -t max-mag-field
+repopick -t max-mag-field
 
 # Sepolicy
 repopick 320333
