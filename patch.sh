@@ -23,7 +23,7 @@ repopick 322898-322904                              # twelve-qcom-fde
 # Extras
 repopick 320514
 
-# Sensots
+# Sensors
 repopick -f -t max-mag-field
 
 # Sepolicy
