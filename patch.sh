@@ -1,4 +1,4 @@
-# Sensots
+# Sensors
 repopick -t max-mag-field
 
 # WiFi
