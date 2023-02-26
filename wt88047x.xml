@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="Redmi-2-Mirror/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" revision="lineage-20" />
-
+    
+    <!-- Redmi 2 Github Mirror -->
+    
+    <project name="Redmi-2-Mirror/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916"  revision="lineage-20" />
+    <project name="Redmi-2-Mirror/android_hardware_qcom-caf_msm8916_display" path="hardware/qcom-caf/msm8916/display" remote="github" revision="main" />
+    <project name="Redmi-2-Mirror/android_vendor_lineage_libbfqio" path="vendor/lineage/libbfqio" remote="github" revision="main" />
+    
+    <!-- LineageOS -->
+    
     <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-20" />
     <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20" />
     <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
-
-
-    <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8916" />
-    <!-- project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8916" / -->
-    <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8916" />
-
-    <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-18.1" />
     
-    <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom-caf_msm8916_display" remote="github" revision="main" />
-    <project path="vendor/lineage/libbfqio" name="Redmi-2-Mirror/android_vendor_lineage_libbfqio" remote="github" revision="main" />
+    <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8916/audio"  remote="github" revision="lineage-18.1-caf-msm8916" />
+    <!-- project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8916/display" remote="github" revision="lineage-18.1-caf-msm8916" / -->
+    <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8916/media" remote="github" revision="lineage-18.1-caf-msm8916" />
+    
+    <project name="LineageOS/android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni"  remote="github" revision="lineage-18.1" />
 
 </manifest>
