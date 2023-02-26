@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="tgitlab"
-           fetch="https://gitlab.com/TipzTeam/android-trees" />
-
-    <project name="android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="tgitlab" revision="lineage-19.1" />
+    <project name="Redmi-2-Mirror/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" revision="lineage-20" />
 
     <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-20" />
     <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20" />
