@@ -11,11 +11,12 @@
 
 
     <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8916" />
-    <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8916" />
+    <!-- project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8916" / -->
     <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8916" />
 
     <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github" revision="lineage-18.1" />
-    <!-- TODO: Remove when 323428 is merged -->
-    <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />-->
+    
+    <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom-caf_msm8916_display" remote="github" revision="main" />
+    <project path="vendor/lineage/libbfqio" name="Redmi-2-Mirror/android_vendor_lineage_libbfqio" remote="github" revision="main" />
 
 </manifest>
