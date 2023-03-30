@@ -2,21 +2,20 @@
 <manifest>
     
     <!-- Redmi 2 Github Mirror -->
-    
-    <project name="Redmi-2-Mirror/android_kernel_wingtech_msm8916" path="kernel/wingtech/msm8916" remote="github" revision="lineage-20" />
+    <project name="Redmi-2-Mirror/android_device_xiaomi_msm8916-common" path="device/xiaomi/msm8916-common" remote="github" revision="lineage-20" />
+    <project name="Redmi-2-Mirror/android_device_xiaomi_wt88047x" path="device/xiaomi/wt88047x" remote="github" revision="lineage-20" />
+    <project name="Redmi-2-Mirror/android_kernel_xiaomi_msm8916" path="kernel/xiaomi/msm8916" remote="github" revision="lineage-20" />
     <project name="Redmi-2-Mirror/android_hardware_qcom-caf_msm8916_display" path="hardware/qcom-caf/msm8916/display" remote="github" revision="main" />
     <project name="Redmi-2-Mirror/android_vendor_lineage_libbfqio" path="vendor/lineage/libbfqio" remote="github" revision="main" />
     
     <!-- LineageOS -->
-    
     <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-20" />
     <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20" />
     <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
     
+    <!-- LineageOS QCom-->
     <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8916/audio"  remote="github" revision="lineage-18.1-caf-msm8916" />
-    <!-- project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8916/display" remote="github" revision="lineage-18.1-caf-msm8916" / -->
     <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8916/media" remote="github" revision="lineage-18.1-caf-msm8916" />
-    
     <project name="LineageOS/android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="github" revision="lineage-18.1" />
 
 </manifest>
